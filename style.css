@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Rhodium+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 305px;
+    max-height: 84px;
+    margin-top: 5px;
+}
+
+.superior-menu {
+    text-decoration: none;
+    overflow: hidden;
+    text-align: right;
+}
+
+.logo-e-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    background-image: url(assets/header-azul.png);
+    min-height: 846px;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+.superior-menu-ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.superior-menu-li {
+    display: inline-block;
+}
+
+.superior-menu-a {
+    font-family: 'Rhodium Libre', serif;
+    font-size: 20px;
+    color: #F5F5F5;
+    padding: 10px;
+}
