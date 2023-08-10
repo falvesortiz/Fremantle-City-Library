@@ -124,6 +124,7 @@
     display: flex;
     justify-content: center;
 }
+
 .footer-menu-ul {
     list-style-type: none;
 }
@@ -131,6 +132,7 @@
 .footer-menu-li {
     padding: 20px;
 }
+
 .footer-menu-a {
     color: #F5F5F5;
 }
