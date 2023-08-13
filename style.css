@@ -10,7 +10,7 @@
 /* header */
 .div-header {
     background-image: url(assets/header-azul.png);
-    min-height: 846px;
+    min-height: 660px;
     background-size: 100%;
     background-repeat: no-repeat; 
 }
@@ -56,7 +56,7 @@
 .div-CTA {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     padding-left: 15%;
     margin-top: 130px;
 }
@@ -107,8 +107,75 @@
     border-color: #DAA520;
 }
 
-/* body */
+/* body index*/
+.body-index {
+    background-color: #F8F8F8;
+}
 
+.body-index-title {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    color: #150505;
+
+}
+
+.body-intex-tag {
+    padding-left: 15%;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #150505;
+}
+
+/* Body CARDS */
+.body-index-cards-general {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    gap: 2%;
+}
+
+/* CARD INDIVIDUAL */
+
+.body-index-cards-individual {
+    background-color: #F1EEE8;
+    padding: 3% 2%;
+    border-radius: 24px;
+    max-width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.body-index-cards-individual:hover {
+    background-color: #daa52038;
+}
+
+.card-img-book-cover {
+    max-width: 102px;
+}
+
+.card-book-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #150505;
+}
+
+.card-book-description {
+    font-family: 'Rhodium Libre', serif;
+    color: #150505;
+    font-size: 12px;
+
+}
+
+.rommance {
+    padding-bottom: 5%;
+}
 
 /* footer */
 .footer-main {
