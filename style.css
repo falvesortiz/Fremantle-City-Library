@@ -10,7 +10,7 @@
 /* header */
 .div-header {
     background-image: url(assets/header-azul.png);
-    min-height: 660px;
+    min-height: 840px;
     background-size: 100%;
     background-repeat: no-repeat; 
 }
