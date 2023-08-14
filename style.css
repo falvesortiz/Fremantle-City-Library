@@ -53,6 +53,10 @@
     padding: 10px;
 }
 
+.superior-menu-a:hover {
+    color: #DAA520;
+}
+
 /* CTA */
 .div-CTA {
     display: flex;
@@ -204,6 +208,10 @@
     color: #F5F5F5;
 }
 
+.footer-menu-a:hover{
+    color: #DAA520;
+}
+
 /* footer second collumn */
 .footer-middle {
     min-width: 33%;
@@ -284,6 +292,7 @@ table {
     display: flex;
     justify-content: center;
     width: 100%;
+    border-collapse: collapse;
 }
 
 th {
@@ -304,7 +313,7 @@ td {
 }
 
 tr:hover{
-    background-color: #DAA520;
+    background-color: #daa52038;
 }
 
 th, td {
@@ -313,4 +322,19 @@ th, td {
 
 .book-cover-table {
     max-width: 80px;
+}
+
+/* BODY ABOUT US */
+.div-about-us {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    padding-bottom: 50px;
+}
+
+.text-about-us {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
 }
