@@ -338,3 +338,49 @@ th, td {
     font-size: 16px;
     line-height: 1.8em;
 }
+
+/* CONTACT */
+.body-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contac-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80%;
+    background-color: #F1EEE8;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 24px;
+}
+
+.message-field {
+    min-height: 120px;
+}
+
+.form-input {
+    border-radius: 24px;
+    padding: 5px 120px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.send-button {
+    color: #F5F5F5;
+    background-color: #588F05;
+    border-style: solid;
+    border-color: #588F05;
+    border-radius: 24px;
+    padding: 2px 60px;
+    font-family: 'Rhodium Libre', serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.send-button:hover {
+    border-color: #DAA520;
+    background-color: #DAA520;
+}
