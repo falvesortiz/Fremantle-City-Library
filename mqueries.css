@@ -1,0 +1,37 @@
+@media (max-width: 1440px) {
+    .logo-e-menu {
+        max-width: 900px;
+    }
+    
+    .superior-menu-a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .logo-e-menu {
+        max-width: 800px;
+    }
+
+    .superior-menu-a {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .logo-e-menu {
+        max-width: 750px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .logo-e-menu {
+       width: 550px;
+    }
+
+    .superior-menu {
+        width: 70%;
+    }
+}

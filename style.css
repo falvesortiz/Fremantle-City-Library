@@ -3,38 +3,42 @@
 * {
     margin: 0;
     padding: 0;
+    outline: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-/* header */
+html {
+    font-size: 62.5%;
+}
+
+/* ====> HEADER <==== */
 .div-header {
     background-image: url(assets/header-azul.png);
     /* min-height: 660px; */
     min-height: 90vh;
     background-size: 100%;
     background-repeat: no-repeat; 
-}
-
-.logo {
-    max-width: 305px;
-    max-height: 84px;
-    margin-top: 5px;
-}
-
-/* navibar */
-.superior-menu {
-    text-decoration: none;
-    overflow: hidden;
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo-e-menu{
     display: flex;
     justify-content: space-between;
-    padding-left: 15%;
-    padding-right: 15%;
+    width: 90%;
+    max-width: 1000px;
+}
 
+.logo {
+    max-width: 50%;
+    margin-top: 5px;
+}
+
+.superior-menu {
+    text-decoration: none;
+    overflow: hidden;
 }
 
 .superior-menu-ul {
@@ -48,7 +52,7 @@
 
 .superior-menu-a {
     font-family: 'Rhodium Libre', serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #F5F5F5;
     padding: 10px;
 }
@@ -69,7 +73,7 @@
 .CTA-text{
     font-family: 'Lato', sans-serif;
     color: #F5F5F5;
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 /* CTA buttons */
@@ -86,7 +90,7 @@
     padding: 2px;
     font-family: 'Rhodium Libre', serif;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .signin:hover {
@@ -103,7 +107,7 @@
     padding: 2px;
     font-family: 'Rhodium Libre', serif;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .signup:hover {
@@ -122,7 +126,7 @@
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: 'Lato', sans-serif;
-    font-size: 32px;
+    font-size: 3.2rem;
     color: #150505;
 
 }
@@ -130,7 +134,7 @@
 .body-intex-tag {
     padding-left: 15%;
     font-family: 'Lato', sans-serif;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #150505;
 }
 
@@ -170,14 +174,14 @@
 .card-book-title {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 2.0rem;
     color: #150505;
 }
 
 .card-book-description {
     font-family: 'Rhodium Libre', serif;
     color: #150505;
-    font-size: 12px;
+    font-size: 1.2rem;
 
 }
 
@@ -221,7 +225,7 @@
     text-align: center;
     color: #F5F5F5;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .footer-middle-div {
@@ -258,7 +262,7 @@
     padding: 3px 20px;
     font-family: 'Rhodium Libre', serif;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .footer-middle-button:hover {
@@ -275,7 +279,7 @@
     gap: 20px;
     color: #F5F5F5;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     padding-right: 20px;
 }
@@ -303,7 +307,7 @@ th {
    font-family: 'Lato', sans-serif;
    color: #150505;
    font-weight: 900;
-   font-size: 16px;
+   font-size: 1.6rem;
 }
 
 td {
@@ -312,7 +316,7 @@ td {
     font-family: 'Lato', sans-serif;
     color: #150505;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 tr:hover{
@@ -338,8 +342,8 @@ th, td {
 
 .text-about-us {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    line-height: 1.8em;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 
 /* CONTACT */
@@ -351,7 +355,7 @@ th, td {
 
 .contact-form-title {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
     margin-bottom: 05px;
 }
@@ -387,7 +391,7 @@ th, td {
     padding: 2px 60px;
     font-family: 'Rhodium Libre', serif;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .send-button:hover {
@@ -430,11 +434,11 @@ th, td {
 
 .book-review-lables {
     font-family: 'Rhodium Libre', serif;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .book-review-inside-card {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
 
 }
