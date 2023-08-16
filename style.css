@@ -13,15 +13,24 @@ html {
 }
 
 /* ====> HEADER <==== */
+/* 
+
+.hero {
+    position: absolute;
+    top: 0;
+    z-index: 0;    
+} */
+
 .div-header {
-    background-image: url(assets/header-azul.png);
-    /* min-height: 660px; */
-    min-height: 90vh;
-    background-size: 100%;
+    background-image: url(assets/header-azul-1440.png);
+    background-size: cover;
     background-repeat: no-repeat; 
+    background-position: center;
+    min-height: 84.6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* z-index: 1; */
 }
 
 .logo-e-menu{
@@ -29,6 +38,7 @@ html {
     justify-content: space-between;
     width: 90%;
     max-width: 1000px;
+    /* z-index: 1; */
 }
 
 .logo {
@@ -62,12 +72,24 @@ html {
 }
 
 /* CTA */
+.CTA-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 10rem;
+    /* z-index: 1; */
+}
+
 .div-CTA {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-left: 15%;
-    margin-top: 130px;
+}
+
+.cta-empty {
+    width: 50%;
+    height: 50px;
 }
 
 .CTA-text{
@@ -118,7 +140,7 @@ html {
 
 /* body index*/
 .body-index {
-    background-color: #F8F8F8;
+    background-color: #F5F5F5;
 }
 
 .body-index-title {
