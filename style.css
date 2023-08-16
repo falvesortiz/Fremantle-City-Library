@@ -137,6 +137,8 @@
 /* Body CARDS */
 .body-index-cards-general {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 15%;
@@ -150,6 +152,7 @@
     padding: 3% 2%;
     border-radius: 24px;
     max-width: 18%;
+    min-width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -346,6 +349,13 @@ th, td {
     align-items: center;
 }
 
+.contact-form-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 05px;
+}
+
 .contac-form {
     display: flex;
     flex-direction: column;
@@ -383,4 +393,48 @@ th, td {
 .send-button:hover {
     border-color: #DAA520;
     background-color: #DAA520;
+}
+
+/* BOOK DETAILS PAGE */
+.book-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.book-review-img {
+    max-width: 35%;
+    margin-bottom: -7%;
+    z-index: 10;
+}
+
+.book-review-big-card {
+    background-color: #F1EEE8;
+    max-width: 70%;
+    border-radius: 24px;
+    padding: 10% 5% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.book-review-synopsis-card {
+    z-index: 10;
+    background-color: #ffffff;
+    border: 1px dashed #311a1a5a;
+    border-radius: 24px;
+    padding: 2%;
+}
+
+.book-review-lables {
+    font-family: 'Rhodium Libre', serif;
+    font-size: 16px;
+}
+
+.book-review-inside-card {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+
 }
