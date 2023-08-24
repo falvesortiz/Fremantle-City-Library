@@ -489,3 +489,54 @@ textarea {
     font-size: 1.4rem;
 
 }
+
+/* ====> LOGIN PAGE <==== */
+.body-login {
+    background-color: #2E4A6E;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    gap: 20px;
+    border: 1px solid #F1EEE8;
+    padding: 3%;
+    border-radius: 24px;
+}
+
+.login-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.4rem;
+    color: #F1EEE8;
+}
+
+.login-label {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 05px;
+    color: #F1EEE8;
+}
+
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-login {
+    max-width: 45%;
+}
+
+.title-and-input !important {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
