@@ -350,7 +350,8 @@ html {
 table {
     display: flex;
     justify-content: center;
-    width: 100%;
+    /* width: 1000px; */
+    max-width: 90%;
     border-collapse: collapse;
 }
 
@@ -380,7 +381,7 @@ th, td {
   }
 
 .book-cover-table {
-    max-width: 80px;
+    width: 8.0rem;
 }
 
 /* BODY ABOUT US */
@@ -403,6 +404,7 @@ th, td {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .contact-form-title {
@@ -412,25 +414,33 @@ th, td {
     margin-bottom: 05px;
 }
 
+form {
+    width: 90%;
+}
+
 .contac-form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 500px;
     min-width: 80%;
+    max-width: 80%;
     background-color: #F1EEE8;
-    padding: 50px;
-    margin-bottom: 50px;
-    border-radius: 24px;
+    padding: 5.0rem;
+    margin-bottom: 5.0rem;
+    border-radius: 2.4rem;
 }
 
 input,
 textarea {
-    width: 500px;
-    padding: 12px;
-    margin-top: 6px;
-    margin-bottom: 20px;
+    /* width: 500px; */
+    min-width: 80%;
+    /* max-width: 80%; */
+    padding: 1.2rem;
+    margin-top: 0.6rem;
+    margin-bottom: 2.0rem;
     resize: vertical;
-    border-radius: 16px;
+    border-radius: 1.6rem;
     border-style: none;
 }
 
