@@ -57,13 +57,8 @@
         width: 650px;
     }
 
-    .superior-menu {
-        /* width: 50%; */
-        /* display: none; */
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* display: block; */
-
+    .CTA-text {
+        text-shadow: 2px 2px #1b2c01;
     }
 
     .superior-menu-li {
@@ -150,30 +145,73 @@
         transition: 0.3s;
     }
 
-    .checkbox:checked ~ .superior-menu-ul {
+    .checkbox:checked~.superior-menu-ul {
         /* display: block; */
         height: calc(100vh - 5rem);
         visibility: visible;
         overflow-y: auto;
     }
 
-    .checkbox:checked ~ .superior-menu-ul-secondary-menu {
+    .checkbox:checked~.superior-menu-ul-secondary-menu {
         /* display: block; */
         height: calc(100vh - 7rem);
         visibility: visible;
         overflow-y: auto;
     }
 
-    .checkbox:checked ~ .label-menu .hamburger {
+    .checkbox:checked~.label-menu .hamburger {
         border-top-color: transparent;
     }
 
-    .checkbox:checked ~ .label-menu .hamburger::before {
+    .checkbox:checked~.label-menu .hamburger::before {
         transform: rotate(135deg);
     }
 
-    .checkbox:checked ~ .label-menu .hamburger::after {
+    .checkbox:checked~.label-menu .hamburger::after {
         transform: rotate(-135deg);
         top: -0.45rem;
     }
+
+    .body-index-cards-individual {
+        margin-top: 2.0rem;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2.0rem;
+        padding: 1.0rem;
+        /* max-width: 90%; */
+    }
+
+    .footer-left {
+        display: inline;
+    }
+
+    .footer-menu-ul {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-menu-li {
+        display: inline-block;
+        align-items: center;
+
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 90%;
+        margin-top: 2.0rem;
+        padding: 0;
+        margin: 2.0rem  auto;
+    }
+
+    .footer-right-text {
+        max-width: 90%;
+        text-align: center;
+    }
+
 }
