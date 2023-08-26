@@ -46,6 +46,10 @@
     .superior-menu {
         width: 50%;
     }
+
+    .body-index-cards-individual {
+        margin-top: 2.0rem;
+    }
 }
 
 @media (max-width: 426px) {
@@ -172,6 +176,11 @@
         top: -0.45rem;
     }
 
+    .body-index-cards-general {
+        max-width: 90%;
+        justify-content: center;
+    }
+
     .body-index-cards-individual {
         margin-top: 2.0rem;
     }
@@ -192,6 +201,7 @@
         display: flex;
         justify-content: center;
     }
+
     .footer-menu-li {
         display: inline-block;
         align-items: center;
@@ -206,7 +216,7 @@
         min-width: 90%;
         margin-top: 2.0rem;
         padding: 0;
-        margin: 2.0rem  auto;
+        margin: 2.0rem auto;
     }
 
     .footer-right-text {
