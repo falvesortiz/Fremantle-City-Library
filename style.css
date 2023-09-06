@@ -23,7 +23,7 @@ html {
 .div-header {
     background-image: url(assets/header-azul-1440.png);
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     min-height: 84.6rem;
     display: flex;
@@ -32,11 +32,12 @@ html {
     /* z-index: 1; */
 }
 
-.label-menu, .checkbox {
+.label-menu,
+.checkbox {
     display: none;
 }
 
-.logo-e-menu{
+.logo-e-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,18 +118,15 @@ html {
     height: 50px;
 }
 
-.CTA-text{
+.CTA-text {
     font-family: 'Lato', sans-serif;
     color: #F5F5F5;
     font-size: 4.8rem;
 }
 
 /* CTA buttons */
-.CTA-button {
+.button {
     max-width: 305px;
-}
-
-.signin {
     color: #F5F5F5;
     background-color: #588F05;
     border-style: solid;
@@ -136,11 +134,12 @@ html {
     border-radius: 24px;
     padding: 2px;
     font-family: 'Rhodium Libre', serif;
+    text-align: center;
     font-weight: 100;
     font-size: 1.4rem;
 }
 
-.signin:hover {
+.button:hover {
     border-color: #DAA520;
     background-color: #DAA520;
 }
@@ -153,6 +152,7 @@ html {
     border-radius: 24px;
     padding: 2px;
     font-family: 'Rhodium Libre', serif;
+    text-align: center;
     font-weight: 100;
     font-size: 1.4rem;
 }
@@ -266,7 +266,7 @@ html {
     font-size: 1.4rem;
 }
 
-.footer-menu-a:hover{
+.footer-menu-a:hover {
     color: #DAA520;
 }
 
@@ -283,6 +283,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
     gap: 20px;
 }
@@ -297,11 +298,11 @@ html {
     max-height: 40px;
 }
 
-.footer-middle-input  {
+.footer-middle-input {
     border-radius: 16px;
     border-style: none;
     margin-bottom: 20px;
-    width: 60% !important;
+    min-width: 70% !important;
     /* padding: 5px 30px; */
 }
 
@@ -356,11 +357,11 @@ table {
 }
 
 th {
-   height: 70px;
-   font-family: 'Lato', sans-serif;
-   color: #150505;
-   font-weight: 900;
-   font-size: 1.6rem;
+    height: 70px;
+    font-family: 'Lato', sans-serif;
+    color: #150505;
+    font-weight: 900;
+    font-size: 1.6rem;
 }
 
 td {
@@ -372,13 +373,14 @@ td {
     font-size: 1.4rem;
 }
 
-tr:hover{
+tr:hover {
     background-color: #daa52038;
 }
 
-th, td {
+th,
+td {
     padding: 15px;
-  }
+}
 
 .book-cover-table {
     width: 8.0rem;
@@ -422,6 +424,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 500px;
     min-width: 80%;
     max-width: 80%;
@@ -433,9 +436,7 @@ form {
 
 input,
 textarea {
-    /* width: 500px; */
-    min-width: 80%;
-    /* max-width: 80%; */
+    min-width: 100%;
     padding: 1.2rem;
     margin-top: 0.6rem;
     margin-bottom: 2.0rem;
@@ -445,6 +446,7 @@ textarea {
 }
 
 .send-button {
+    margin: auto;
     color: #F5F5F5;
     background-color: #588F05;
     border-style: solid;
@@ -452,6 +454,7 @@ textarea {
     border-radius: 24px;
     padding: 2px 60px;
     font-family: 'Rhodium Libre', serif;
+    text-align: center;
     font-weight: 100;
     font-size: 1.4rem;
 }
@@ -483,7 +486,7 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+
 }
 
 .book-review-synopsis-card {
@@ -554,4 +557,3 @@ textarea {
     flex-direction: column;
     gap: 5px;
 }
-
